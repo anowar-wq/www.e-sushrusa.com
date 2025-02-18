@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Sushrusa - Digital Healthcare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to E-Sushrusa</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About E-Sushrusa</h2>
+        <p>Your trusted digital healthcare service providing seamless online consultations and prescriptions.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Online Consultation</li>
+            <li>Digital Prescription</li>
+            <li>Health Monitoring</li>
+            <li>Membership Benefits</li>
+        </ul>
+    </section>
+    
+    <section id="membership">
+        <h2>Become a Member</h2>
+        <form id="paymentForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="button" id="payButton">Pay ₹1000 & Enroll</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 E-Sushrusa. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Include Razorpay JS Library -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
